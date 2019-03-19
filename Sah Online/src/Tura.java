@@ -23,10 +23,10 @@ public class Tura extends JLabel implements Pozitie {
 		punct=new Point(x,y);
 		setBounds(x, y, 50, 50);
 		if(culoare=="Alb") {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\Tura.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\Tura.png"));
 			}
 		else {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\TuraN.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\TuraN.png"));
 		}
 		addMouseListener(new MouseAdapter(){
             public void mousePressed(MouseEvent e){

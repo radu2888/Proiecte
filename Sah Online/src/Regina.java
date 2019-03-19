@@ -23,10 +23,10 @@ public class Regina extends JLabel implements Pozitie {
 		punct=new Point(x,y);
 		setBounds(x, y, 50, 50);
 		if(culoare=="Alb") {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\Regina.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\Regina.png"));
 			}
 		else {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\ReginaN.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\ReginaN.png"));
 		}
 		addMouseListener(new MouseAdapter(){
             public void mousePressed(MouseEvent e){

@@ -23,10 +23,10 @@ public class Nebun extends JLabel implements Pozitie {
 		punct=new Point(x,y);
 		setBounds(x, y, 50, 50);
 		if(culoare=="Alb") {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\Nebun.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\Nebun.png"));
 			}
 		else {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\NebunN.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\NebunN.png"));
 		}
 		addMouseListener(new MouseAdapter(){
             public void mousePressed(MouseEvent e){

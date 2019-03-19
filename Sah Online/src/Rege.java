@@ -23,10 +23,10 @@ public class Rege extends JLabel implements Pozitie {
 		punct=new Point(x,y);
 		setBounds(x, y, 50, 50);
 		if(culoare=="Alb") {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\Rege.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\Rege.png"));
 			}
 		else {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\RegeN.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\RegeN.png"));
 		}
 		addMouseListener(new MouseAdapter(){
             public void mousePressed(MouseEvent e){

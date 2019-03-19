@@ -26,10 +26,10 @@ public class Pion extends JLabel implements Pozitie{
 		punct= new Point(x,y);
 		setBounds(x, y, 50, 50);
 		if(culoare=="Alb") {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\Pion.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\Pion.png"));
 			}
 		else {
-			setIcon(new ImageIcon("C:\\Users\\Radu\\eclipse-workspace\\Sah Online\\PionN.png"));
+			setIcon(new ImageIcon("C:\\Users\\Radu\\git\\Proiecte\\Sah Online\\PionN.png"));
 		}
 		
 		
